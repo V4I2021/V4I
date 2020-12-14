@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+
+</style>
+<body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+
+    let width = 1800,
+        height = 1000,
+        r = 8;
+    d3.json("insight_graph.json").then(graph => {
+        console.log('graph', graph);
+        let nodes = graph.nodes;
+        let edges = [];
+        graph.edges.forEach(edge => {
+            if (edge.jaccard_index > 0.1) {
+                edges.push(edge);
+            }
+        });
+
+        let colorMap = {
+            "Breakdown": {
+                'Year': 'red',
+                'Brand': 'green',
+                'Category': 'blue'
+            },
+            'Breakdown Value': {
+                '2007/1/1': '#ffffcc',
+                '2008/1/1': '#fed976',
+                '2009/1/1': '#fd8d3c',
+                '2010/1/1': '#fc4e2a',
+                '2011/1/1': '#bd0026',
+
+                'Honda': '#ccece6',
+                'Ford': '#66c2a4',
+                'Toyota': '#41ae76',
+                'GMC': '#238b45',
+                'Mazda': '#006d2c',
+                'Hyundai': '#00441b',
+
+                'Compact': '#fa9fb5',
+                'Midsize': '#dd3497',
+                'Pickup': '#ae017e',
+                'Subcompact': '#7a0177',
+            }
+        };
+
+        const simulation = d3.forceSimulation(nodes)
+            .force("link", d3.forceLink(edges).id(d => d.id))
+            .force("charge", d3.forceManyBody()
+                .strength(-80)
+                // .distanceMin(50)
+                // .distanceMax(500)
+                // .theta(0.9)
+            )
+            // .force("center", d3.forceCenter(width / 2, height / 2))
+            .force('collision', d3.forceCollide().radius(d => r * 1))
+            .force('x', d3.forceX().x(d => width / 2).strength(0.1))
+            .force('y', d3.forceY().y(d => height / 2).strength(0.1))
+
+
+        simulation.on("tick", ticked);
+        simulation.restart();
+        simulation.alpha(9);
+
+        let svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
+        let linkContainer = svg.append('g');
+        let circleContainer = svg.append('g');
+
+        let allLinkContainer = linkContainer.selectAll('.links').data(edges).enter().append('line')
+            .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x).attr("y2", d => d.target.y)
+            .attr('stroke', 'black').attr('stroke-width', 0.2);
+
+        let allCircleContainers = circleContainer.selectAll('.circleContainer').data(nodes).enter().append('g')
+            .attr('transform', d => 'translate(' + [d.x, d.y] + ')');
+
+
+        let circles = allCircleContainers.append('circle').attr('r', r).attr('fill', d => {
+            return colorMap['Breakdown Value'][d['Breakdown Value']]
+        });
+
+        circles.attr('stroke', d=>colorMap['Breakdown'][d['Breakdown']]).attr('stroke-width', 2)
+        circles.append('title').text(d=>{
+            return '[' + d.Year + ';' + d.Brand + ';' + d.Category + '] - [' + 'Breakdown: ' + d.Breakdown + '; Breakdown Value: ' + d['Breakdown Value'] + ']'
+        })
+
+        function ticked() {
+            allCircleContainers.attr('transform', d => {
+                d.x = Math.max(r, Math.min(width - r, d.x));
+                d.y = Math.max(r, Math.min(height - r, d.y));
+                return 'translate(' + [d.x, d.y] + ')'
+            });
+
+            allCircleContainers.attr('transform', d => 'translate(' + [d.x, d.y] + ')');
+            allLinkContainer
+                .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x).attr("y2", d => d.target.y)
+
+        }
+    })
+</script>
