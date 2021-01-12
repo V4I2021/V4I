@@ -6,9 +6,9 @@
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script>
 
-    let width = 1800,
+    let width = 1500,
         height = 800,
-        r = 8;
+        r = 6;
     d3.json("insight_graph2.json").then(graph => {
         console.log('graph', graph);
         let nodes = graph.nodes;
@@ -45,6 +45,7 @@
                 'Pickup': '#ae017e',
                 'Subcompact': '#7a0177',
                 "SUV": '#4d037a',
+                '-1':'grey'
             }
         };
 
@@ -111,10 +112,10 @@
 
 
         let runLayout = function (method) {
-            if(simulation) simulation.stop();
+            if (simulation) simulation.stop();
             xScale.domain(d3.extent(nodes, node => node[method + 'X']));
             yScale.domain(d3.extent(nodes, node => node[method + 'Y']));
-            nodes.forEach(node =>{
+            nodes.forEach(node => {
                 node.x = xScale(node[method + 'X']);
                 node.y = yScale(node[method + 'Y']);
             });
@@ -136,22 +137,43 @@
         let allCircleContainers = circleContainer.selectAll('.circleContainer').data(nodes).enter().append('g')
             .attr('transform', d => 'translate(' + [d.x, d.y] + ')');
 
-        let circles = allCircleContainers.append('circle').attr('r', r).attr('fill', d => {
-            return colorMap['Breakdown_Value'][d['Breakdown_value']]
-        });
-        circles.attr('opacity', d => {
-            console.log('opacity')
-            if (d.score > 0.02) {
-                return 1
+        allCircleContainers.each(function (d) {
+            let _container = d3.select(this);
+            if (d.Type == 'Point') {
+                let circles = _container.append('circle').attr('r', r).attr('fill', d => {
+                    return colorMap['Breakdown_Value'][d['Breakdown_value']]
+                });
+                circles.attr('opacity', d => {
+                    console.log('opacity')
+                    if (d.score > 0.05) {
+                        return 1
+                    } else {
+                        return 0.1
+                    }
+                });
+                circles.attr('stroke', d => colorMap['Breakdown'][d['Breakdown']]).attr('stroke-width', 2);
+                circles.append('title').text(d => {
+                    return '[' + d.Year + ';' + d.Brand + ';' + d.Category + '] - [' + 'Breakdown: ' + d['Breakdown'] + '; Breakdown Value: ' + d['Breakdown_value'] + ']'
+                });
             } else {
-                return 0.1
+                let rects = _container.append('rect').attr('width', r*2).attr('height', r*2).attr('fill', d => {
+                    return colorMap['Breakdown_Value'][d['Breakdown_value']]
+                });
+                rects.attr('opacity', d => {
+                    console.log('opacity')
+                    if (d.score > 0.05) {
+                        return 1
+                    } else {
+                        return 0.1
+                    }
+                });
+                rects.attr('stroke', d => colorMap['Breakdown'][d['Breakdown']]).attr('stroke-width', 2);
+                rects.append('title').text(d => {
+                    return '[' + d.Year + ';' + d.Brand + ';' + d.Category + '] - [' + 'Breakdown: ' + d['Breakdown'] + '; Breakdown Value: ' + d['Breakdown_value'] + ']'
+                });
             }
-        });
 
-        circles.attr('stroke', d => colorMap['Breakdown'][d['Breakdown']]).attr('stroke-width', 2);
-        circles.append('title').text(d => {
-            return '[' + d.Year + ';' + d.Brand + ';' + d.Category + '] - [' + 'Breakdown: ' + d['Breakdown'] + '; Breakdown Value: ' + d['Breakdown_value'] + ']'
-        });
+        })
 
 
     })
