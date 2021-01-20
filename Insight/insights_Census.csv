@@ -1,0 +1,251 @@
+Sex,Age Group,Marital Status,Age Segment,Birthday,breakdown,breakdown_value,sig,impact,insight,insight_type,score,measure
+*,Young,*,20-24 years,*,Birthday,-1,0.277868579595008,0.1111111111111111,trend,shape,0.03087428662166755,Count of persons
+Female,Young,Widowed,*,*,Birthday,-1,0.9362411915062077,0.03333333333333333,trend,shape,0.031208039716873588,Count of persons
+*,*,*,20-24 years,*,Birthday,-1,0.277868579595008,0.1111111111111111,trend,shape,0.03087428662166755,Count of persons
+Male,Old,Never married,*,*,Birthday,-1,0.9466625566580587,0.03333333333333333,trend,shape,0.031555418555268624,Count of persons
+Male,Middle Age,Widowed,*,*,Birthday,-1,0.9524764269842587,0.03333333333333333,trend,shape,0.031749214232808624,Count of persons
+Male,Young,Never married,*,*,Birthday,-1,0.9664853273183094,0.03333333333333333,trend,shape,0.03221617757727698,Count of persons
+Female,Middle Age,Widowed,*,*,Birthday,-1,0.9420612506918369,0.03333333333333333,trend,shape,0.0314020416897279,Count of persons
+Female,Old,Separated,*,*,Birthday,-1,0.9696994629473881,0.03333333333333333,trend,shape,0.032323315431579604,Count of persons
+Male,Young,Widowed,*,*,Birthday,-1,0.9485639847549143,0.03333333333333333,trend,shape,0.031618799491830475,Count of persons
+Male,Old,Divorced,*,*,Birthday,-1,0.9570859674428233,0.03333333333333333,trend,shape,0.03190286558142744,Count of persons
+Female,*,*,20-24 years,*,Birthday,-1,0.6984873147800821,0.05555555555555555,trend,shape,0.03880485082111567,Count of persons
+Female,Old,Divorced,*,*,Birthday,-1,0.9755932981575519,0.03333333333333333,trend,shape,0.03251977660525173,Count of persons
+*,*,*,15-19 years,*,Birthday,-1,0.3167495893287765,0.1111111111111111,trend,shape,0.0351943988143085,Count of persons
+Male,*,*,*,*,Birthday,-1,0.06501612836080473,0.5,trend,shape,0.03250806418040236,Count of persons
+Male,*,*,20-24 years,*,Birthday,-1,0.7273174909492888,0.05555555555555555,trend,shape,0.04040652727496048,Count of persons
+Female,Middle Age,Never married,*,*,Birthday,-1,0.9955663793210289,0.03333333333333333,trend,shape,0.03318554597736763,Count of persons
+Female,Young,Never married,*,*,Birthday,-1,0.9936350463486642,0.03333333333333333,trend,shape,0.033121168211622136,Count of persons
+Male,Old,Separated,*,*,Birthday,-1,0.9576214454088512,0.03333333333333333,trend,shape,0.031920714846961705,Count of persons
+Female,Old,Married(a),*,*,Birthday,-1,0.9934364321912498,0.03333333333333333,trend,shape,0.033114547739708323,Count of persons
+*,Young,*,15-19 years,*,Birthday,-1,0.3167495893287765,0.1111111111111111,trend,shape,0.0351943988143085,Count of persons
+Female,Young,*,20-24 years,*,Birthday,-1,0.6984873147800821,0.05555555555555555,trend,shape,0.03880485082111567,Count of persons
+Female,*,Never married,*,*,Birthday,-1,0.8373375230537792,0.1,trend,shape,0.08373375230537793,Count of persons
+Female,Young,*,15-19 years,*,Birthday,-1,0.747509716726833,0.05555555555555555,trend,shape,0.041528317595935164,Count of persons
+*,Old,*,*,*,Birthday,-1,0.10731128969213899,0.3333333333333333,trend,shape,0.03577042989737966,Count of persons
+Male,Young,*,15-19 years,*,Birthday,-1,0.7483635686210051,0.05555555555555555,trend,shape,0.04157575381227806,Count of persons
+*,Middle Age,Divorced,*,*,Birthday,-1,0.8062603327647486,0.06666666666666667,trend,shape,0.05375068885098324,Count of persons
+Male,*,Widowed,*,*,Birthday,-1,0.8961122086994987,0.1,trend,shape,0.08961122086994988,Count of persons
+Male,*,Never married,*,*,Birthday,-1,0.8123815215737125,0.1,trend,shape,0.08123815215737125,Count of persons
+Male,*,*,15-19 years,*,Birthday,-1,0.7483635686210051,0.05555555555555555,trend,shape,0.04157575381227806,Count of persons
+*,Middle Age,Widowed,*,*,Birthday,-1,0.7072003465522191,0.06666666666666667,trend,shape,0.04714668977014794,Count of persons
+*,Young,Divorced,*,*,Birthday,-1,0.8506866845502375,0.06666666666666667,trend,shape,0.056712445636682506,Count of persons
+*,*,*,*,*,Birthday,-1,0.06425091941098915,1.0,trend,shape,0.06425091941098915,Count of persons
+*,Old,Separated,*,*,Birthday,-1,0.9259949095140003,0.06666666666666667,trend,shape,0.06173299396760002,Count of persons
+*,Old,Divorced,*,*,Birthday,-1,0.7280883174997873,0.06666666666666667,trend,shape,0.048539221166652484,Count of persons
+Male,Old,Married(a),*,*,Birthday,-1,0.9961207691059678,0.03333333333333333,trend,shape,0.03320402563686559,Count of persons
+Female,Old,Never married,*,*,Birthday,-1,0.977974794965646,0.03333333333333333,trend,shape,0.032599159832188196,Count of persons
+Male,Middle Age,Never married,*,*,Birthday,-1,0.9991257898472052,0.03333333333333333,trend,shape,0.03330419299490684,Count of persons
+*,Old,Married(a),*,*,Birthday,-1,0.9794609565532852,0.06666666666666667,trend,shape,0.06529739710355235,Count of persons
+*,Young,Never married,*,*,Birthday,-1,0.651366722103639,0.06666666666666667,trend,shape,0.0434244481402426,Count of persons
+*,*,Widowed,*,*,Birthday,-1,0.5848013841552142,0.2,trend,shape,0.11696027683104285,Count of persons
+*,Middle Age,Married(a),*,*,Birthday,-1,0.7594824747162959,0.06666666666666667,trend,shape,0.05063216498108639,Count of persons
+*,Old,Never married,*,*,Birthday,-1,0.9268552901284006,0.06666666666666667,trend,shape,0.06179035267522671,Count of persons
+Male,Young,*,20-24 years,*,Birthday,-1,0.7273174909492888,0.05555555555555555,trend,shape,0.04040652727496048,Count of persons
+*,*,Never married,*,*,Birthday,-1,0.8221912475455293,0.2,trend,shape,0.16443824950910588,Count of persons
+Female,*,Widowed,*,*,Birthday,-1,0.8553838579277121,0.1,trend,shape,0.08553838579277122,Count of persons
+Female,*,*,15-19 years,*,Birthday,-1,0.747509716726833,0.05555555555555555,trend,shape,0.041528317595935164,Count of persons
+*,Young,Widowed,*,*,Birthday,-1,0.8825144495001381,0.06666666666666667,trend,shape,0.05883429663334254,Count of persons
+*,Young,Separated,*,*,Birthday,-1,0.8408370698320513,0.06666666666666667,trend,shape,0.05605580465547009,Count of persons
+*,Young,Married(a),*,*,Birthday,-1,0.8156625467126206,0.06666666666666667,trend,shape,0.054377503114174705,Count of persons
+*,Middle Age,Never married,*,*,Birthday,-1,0.9816196347799825,0.06666666666666667,trend,shape,0.06544130898533217,Count of persons
+Female,Young,Divorced,*,*,Birthday,1986,0.9503870243872289,0.03333333333333333,top1,point,0.031679567479574296,Count of persons
+Female,Young,Divorced,*,*,Age Segment,25-34 years,0.9503870243872289,0.03333333333333333,top1,point,0.031679567479574296,Count of persons
+Male,Young,Divorced,*,*,Age Segment,25-34 years,0.9984922291095629,0.03333333333333333,top1,point,0.0332830743036521,Count of persons
+Male,Middle Age,*,*,*,Age Segment,35-44 years,0.22017262863036285,0.16666666666666666,top1,point,0.03669543810506047,Count of persons
+Female,*,*,55-64 years,*,Marital Status,Married(a),0.7341465469433828,0.05555555555555555,top1,point,0.040785919274632376,Count of persons
+Male,Young,Divorced,*,*,Birthday,1991,0.9984922291095629,0.03333333333333333,top1,point,0.0332830743036521,Count of persons
+Male,Old,*,75-84 years,*,Marital Status,Married(a),0.8894177846183731,0.05555555555555555,top1,point,0.04941209914546517,Count of persons
+*,Young,Never married,*,*,Age Segment,25-34 years,0.5953605445368945,0.06666666666666667,top1,point,0.039690702969126294,Count of persons
+Female,Middle Age,*,55-64 years,*,Birthday,1958,0.7341465469433828,0.05555555555555555,top1,point,0.040785919274632376,Count of persons
+*,Middle Age,Separated,*,*,Age Segment,45-54 years,0.7380032720488746,0.06666666666666667,top1,point,0.04920021813659164,Count of persons
+Male,*,Separated,*,*,Age Group,Middle Age,0.5114328541489345,0.1,top1,point,0.05114328541489345,Count of persons
+Female,Middle Age,*,*,*,Age Segment,35-44 years,0.2163456685598471,0.16666666666666666,top1,point,0.036057611426641184,Count of persons
+Female,Middle Age,*,55-64 years,*,Marital Status,Married(a),0.7341465469433828,0.05555555555555555,top1,point,0.040785919274632376,Count of persons
+Male,Old,*,65-74 years,*,Marital Status,Married(a),0.973748262052748,0.05555555555555555,top1,point,0.05409712566959711,Count of persons
+Female,*,Married(a),*,*,Age Group,Middle Age,0.9728854827517158,0.1,top1,point,0.09728854827517158,Count of persons
+Male,*,*,65-74 years,*,Birthday,1953,0.973748262052748,0.05555555555555555,top1,point,0.05409712566959711,Count of persons
+Male,*,*,20-24 years,*,Marital Status,Never married,0.9877422996529197,0.05555555555555555,top1,point,0.05487457220293998,Count of persons
+Male,*,*,75-84 years,*,Birthday,1943,0.8894177846183731,0.05555555555555555,top1,point,0.04941209914546517,Count of persons
+Female,*,*,55-64 years,*,Birthday,1958,0.7341465469433828,0.05555555555555555,top1,point,0.040785919274632376,Count of persons
+Male,*,*,75-84 years,*,Marital Status,Married(a),0.8894177846183731,0.05555555555555555,top1,point,0.04941209914546517,Count of persons
+*,Young,Divorced,*,*,Age Segment,25-34 years,0.9928845442385381,0.06666666666666667,top1,point,0.06619230294923588,Count of persons
+Male,*,*,65-74 years,*,Marital Status,Married(a),0.973748262052748,0.05555555555555555,top1,point,0.05409712566959711,Count of persons
+Male,Old,*,65-74 years,*,Birthday,1953,0.973748262052748,0.05555555555555555,top1,point,0.05409712566959711,Count of persons
+Female,Young,*,15-19 years,*,Marital Status,Never married,0.9994844875850847,0.05555555555555555,top1,point,0.05552691597694914,Count of persons
+Male,Young,*,15-19 years,*,Birthday,2001,0.9994171010722233,0.05555555555555555,top1,point,0.05552317228179018,Count of persons
+Female,*,*,15-19 years,*,Birthday,1999,0.9991514909182083,0.05555555555555555,top1,point,0.05550841616212268,Count of persons
+*,*,Married(a),*,*,Age Group,Middle Age,0.8372585327071943,0.2,top1,point,0.16745170654143887,Count of persons
+*,Middle Age,*,55-64 years,*,Marital Status,Married(a),0.657962557394097,0.1111111111111111,top1,point,0.07310695082156633,Count of persons
+*,*,*,65-74 years,*,Marital Status,Married(a),0.839100295000375,0.1111111111111111,top1,point,0.09323336611115277,Count of persons
+Female,Young,*,*,*,Age Segment,25-34 years,0.9141591837237479,0.16666666666666666,top1,point,0.15235986395395798,Count of persons
+*,*,Separated,*,*,Age Group,Middle Age,0.9694920544950425,0.2,top1,point,0.1938984108990085,Count of persons
+*,Young,*,*,*,Age Segment,25-34 years,0.9083023665819704,0.3333333333333333,top1,point,0.3027674555273234,Count of persons
+Female,*,*,15-19 years,*,Marital Status,Never married,0.9994844875850847,0.05555555555555555,top1,point,0.05552691597694914,Count of persons
+Male,Young,*,15-19 years,*,Marital Status,Never married,0.9995189824163068,0.05555555555555555,top1,point,0.055528832356461486,Count of persons
+Male,*,*,15-19 years,*,Birthday,2001,0.9994171010722233,0.05555555555555555,top1,point,0.05552317228179018,Count of persons
+Female,Young,*,15-19 years,*,Birthday,1999,0.9991514909182083,0.05555555555555555,top1,point,0.05550841616212268,Count of persons
+Male,Young,*,*,*,Age Segment,25-34 years,0.9018622969015488,0.16666666666666666,top1,point,0.1503103828169248,Count of persons
+*,Old,*,65-74 years,*,Marital Status,Married(a),0.839100295000375,0.1111111111111111,top1,point,0.09323336611115277,Count of persons
+*,Young,Widowed,*,*,Age Segment,25-34 years,0.7670824489863153,0.06666666666666667,top1,point,0.05113882993242102,Count of persons
+*,Middle Age,*,*,*,Age Segment,35-44 years,0.21829632906016688,0.3333333333333333,top1,point,0.07276544302005562,Count of persons
+Male,Old,*,75-84 years,*,Birthday,1943,0.8894177846183731,0.05555555555555555,top1,point,0.04941209914546517,Count of persons
+*,Young,*,20-24 years,*,Marital Status,Never married,0.7844746427343109,0.1111111111111111,top1,point,0.0871638491927012,Count of persons
+Female,*,Separated,*,*,Age Group,Middle Age,0.9954834495493728,0.1,top1,point,0.09954834495493729,Count of persons
+Male,*,*,15-19 years,*,Marital Status,Never married,0.9995189824163068,0.05555555555555555,top1,point,0.055528832356461486,Count of persons
+Male,Old,*,*,*,Marital Status,Married(a),0.9719343627091067,0.16666666666666666,top1,point,0.16198906045151779,Count of persons
+Male,Young,*,20-24 years,*,Marital Status,Never married,0.9877422996529197,0.05555555555555555,top1,point,0.05487457220293998,Count of persons
+*,*,*,20-24 years,*,Marital Status,Never married,0.7844746427343109,0.1111111111111111,top1,point,0.0871638491927012,Count of persons
+*,*,*,15-19 years,*,Marital Status,Never married,0.9995052085400634,0.1111111111111111,top1,point,0.11105613428222927,Count of persons
+*,Young,*,15-19 years,*,Marital Status,Never married,0.9995052085400634,0.1111111111111111,top1,point,0.11105613428222927,Count of persons
+*,*,*,55-64 years,*,Marital Status,Married(a),0.657962557394097,0.1111111111111111,top1,point,0.07310695082156633,Count of persons
+*,Young,Widowed,*,*,Birthday,1990,0.9999999999999993,0.06666666666666667,change point,shape,0.06666666666666662,Count of persons
+*,Young,Divorced,*,*,Birthday,1991,0.9999999999999993,0.06666666666666667,change point,shape,0.06666666666666662,Count of persons
+*,Young,Married(a),*,*,Birthday,1993,0.9999999999999993,0.06666666666666667,change point,shape,0.06666666666666662,Count of persons
+Female,*,Married(a),*,*,Birthday,1988,0.9999999999999993,0.1,change point,shape,0.09999999999999994,Count of persons
+Female,*,Never married,*,*,Birthday,1974,0.9999999999999966,0.1,change point,shape,0.09999999999999966,Count of persons
+*,Old,Never married,*,*,Birthday,1944,0.9999999999999993,0.06666666666666667,change point,shape,0.06666666666666662,Count of persons
+Male,*,Never married,*,*,Birthday,1979,0.9999999999999918,0.1,change point,shape,0.09999999999999919,Count of persons
+*,Young,*,15-19 years,*,Birthday,2001,0.9999980035912074,0.1111111111111111,change point,shape,0.11111088928791192,Count of persons
+*,Middle Age,*,55-64 years,*,Birthday,1962,0.9999999999999988,0.1111111111111111,change point,shape,0.11111111111111097,Count of persons
+Female,*,Widowed,*,*,Birthday,1945,0.9999999999999978,0.1,change point,shape,0.09999999999999978,Count of persons
+*,Young,*,20-24 years,*,Birthday,1996,0.9999972738522753,0.1111111111111111,change point,shape,0.11111080820580836,Count of persons
+*,Young,Separated,*,*,Birthday,1992,0.9999999999999993,0.06666666666666667,change point,shape,0.06666666666666662,Count of persons
+Male,*,Married(a),*,*,Birthday,1993,0.9999999999999993,0.1,change point,shape,0.09999999999999994,Count of persons
+Male,*,Separated,*,*,Birthday,1952,0.9999999999999978,0.1,change point,shape,0.09999999999999978,Count of persons
+Male,*,Widowed,*,*,Birthday,1950,0.9999999999999977,0.1,change point,shape,0.09999999999999977,Count of persons
+*,*,*,45-54 years,*,Birthday,1972,0.999999999999999,0.1111111111111111,change point,shape,0.111111111111111,Count of persons
+*,*,*,55-64 years,*,Birthday,1962,0.9999999999999988,0.1111111111111111,change point,shape,0.11111111111111097,Count of persons
+Female,Middle Age,*,*,*,Birthday,1977,0.9999999999999992,0.16666666666666666,change point,shape,0.16666666666666652,Count of persons
+*,*,*,65-74 years,*,Birthday,1952,0.9999999999999992,0.1111111111111111,change point,shape,0.11111111111111102,Count of persons
+*,*,*,85 years and over,*,Birthday,1929,0.9999999999999993,0.1111111111111111,change point,shape,0.11111111111111104,Count of persons
+Female,*,Separated,*,*,Birthday,1987,0.9999999999999989,0.1,change point,shape,0.0999999999999999,Count of persons
+*,Old,*,65-74 years,*,Birthday,1952,0.9999999999999992,0.1111111111111111,change point,shape,0.11111111111111102,Count of persons
+*,Old,*,85 years and over,*,Birthday,1929,0.9999999999999993,0.1111111111111111,change point,shape,0.11111111111111104,Count of persons
+Male,*,Divorced,*,*,Birthday,1981,0.9999999999999989,0.1,change point,shape,0.0999999999999999,Count of persons
+*,Old,*,75-84 years,*,Birthday,1942,0.9999999999999993,0.1111111111111111,change point,shape,0.11111111111111104,Count of persons
+*,Old,*,*,*,Birthday,1929,0.9999999999999993,0.3333333333333333,change point,shape,0.3333333333333331,Count of persons
+*,*,*,20-24 years,*,Birthday,1996,0.9999972738522753,0.1111111111111111,change point,shape,0.11111080820580836,Count of persons
+*,Young,*,*,*,Birthday,1985,0.9999999999999993,0.3333333333333333,change point,shape,0.3333333333333331,Count of persons
+*,*,*,35-44 years,*,Birthday,1982,0.9999999999999993,0.1111111111111111,change point,shape,0.11111111111111104,Count of persons
+*,*,*,25-34 years,*,Birthday,1985,0.9999999999999993,0.1111111111111111,change point,shape,0.11111111111111104,Count of persons
+*,Middle Age,*,45-54 years,*,Birthday,1972,0.999999999999999,0.1111111111111111,change point,shape,0.111111111111111,Count of persons
+*,*,*,*,*,Birthday,1929,0.9999999999999993,1.0,change point,shape,0.9999999999999993,Count of persons
+*,*,Separated,*,*,Birthday,1942,0.9999999999999981,0.2,change point,shape,0.19999999999999962,Count of persons
+*,*,Married(a),*,*,Birthday,1996,0.9999999999999984,0.2,change point,shape,0.1999999999999997,Count of persons
+*,Middle Age,*,35-44 years,*,Birthday,1982,0.9999999999999993,0.1111111111111111,change point,shape,0.11111111111111104,Count of persons
+*,Middle Age,*,*,*,Birthday,1982,0.9999999999999993,0.3333333333333333,change point,shape,0.3333333333333331,Count of persons
+Female,Young,*,*,*,Birthday,1985,0.9999999999999993,0.16666666666666666,change point,shape,0.16666666666666655,Count of persons
+Female,Old,*,*,*,Birthday,1947,0.9999999999999993,0.16666666666666666,change point,shape,0.16666666666666655,Count of persons
+*,*,*,75-84 years,*,Birthday,1942,0.9999999999999993,0.1111111111111111,change point,shape,0.11111111111111104,Count of persons
+Female,*,*,*,*,Birthday,1987,0.9999999999999993,0.5,change point,shape,0.49999999999999967,Count of persons
+Male,Young,*,*,*,Birthday,1990,0.9999999999999993,0.16666666666666666,change point,shape,0.16666666666666655,Count of persons
+*,*,Never married,*,*,Birthday,1979,0.9999999999999981,0.2,change point,shape,0.19999999999999962,Count of persons
+Female,*,Divorced,*,*,Birthday,1976,0.999999999999999,0.1,change point,shape,0.09999999999999991,Count of persons
+*,*,Widowed,*,*,Birthday,1990,0.999999999999999,0.2,change point,shape,0.19999999999999982,Count of persons
+Male,Old,*,*,*,Birthday,1952,0.9999999999999992,0.16666666666666666,change point,shape,0.16666666666666652,Count of persons
+Male,Middle Age,*,*,*,Birthday,1982,0.9999999999999993,0.16666666666666666,change point,shape,0.16666666666666655,Count of persons
+*,Young,*,25-34 years,*,Birthday,1985,0.9999999999999993,0.1111111111111111,change point,shape,0.11111111111111104,Count of persons
+Male,*,*,*,*,Birthday,1990,0.9999999999999993,0.5,change point,shape,0.49999999999999967,Count of persons
+*,*,*,15-19 years,*,Birthday,2001,0.9999980035912074,0.1111111111111111,change point,shape,0.11111088928791192,Count of persons
+*,*,Divorced,*,*,Birthday,1981,0.9999999999999944,0.2,change point,shape,0.1999999999999989,Count of persons
+*,Young,Never married,*,*,Birthday,1989,0.964777981563852,0.06666666666666667,outlier,shape,0.0643185321042568,Count of persons
+*,Young,Divorced,*,*,Birthday,1986,0.9694376243326118,0.06666666666666667,outlier,shape,0.06462917495550745,Count of persons
+*,Young,Separated,*,*,Birthday,1987,0.9689109723107858,0.06666666666666667,outlier,shape,0.06459406482071905,Count of persons
+*,Middle Age,Widowed,*,*,Birthday,1955,0.9820212593944811,0.06666666666666667,outlier,shape,0.06546808395963208,Count of persons
+*,Young,Widowed,*,*,Birthday,1985,0.9786560299438223,0.06666666666666667,outlier,shape,0.06524373532958815,Count of persons
+Male,*,Separated,*,*,Birthday,1972,0.9539659466933108,0.1,outlier,shape,0.09539659466933109,Count of persons
+Male,*,Married(a),*,*,Birthday,1983,0.8929862652106727,0.1,outlier,shape,0.08929862652106728,Count of persons
+*,Middle Age,*,35-44 years,*,Birthday,1978,0.9696044230392964,0.1111111111111111,outlier,shape,0.10773382478214404,Count of persons
+Female,*,Married(a),*,*,Birthday,1978,0.8953810819503194,0.1,outlier,shape,0.08953810819503194,Count of persons
+Female,*,Separated,*,*,Birthday,1967,0.953725461319111,0.1,outlier,shape,0.0953725461319111,Count of persons
+Female,*,Divorced,*,*,Birthday,1956,0.94750873781827,0.1,outlier,shape,0.094750873781827,Count of persons
+*,*,*,20-24 years,*,Birthday,1996,0.9124896627819836,0.1111111111111111,outlier,shape,0.10138774030910928,Count of persons
+Male,*,Divorced,*,*,Birthday,1961,0.9556461029319798,0.1,outlier,shape,0.09556461029319799,Count of persons
+Male,*,Never married,*,*,Birthday,1989,0.9669293184564249,0.1,outlier,shape,0.0966929318456425,Count of persons
+Male,*,Widowed,*,*,Birthday,1940,0.9455992023884926,0.1,outlier,shape,0.09455992023884927,Count of persons
+*,*,*,55-64 years,*,Birthday,1963,0.9760187043087164,0.1111111111111111,outlier,shape,0.10844652270096848,Count of persons
+*,*,*,45-54 years,*,Birthday,1968,0.9745401565848176,0.1111111111111111,outlier,shape,0.10828223962053529,Count of persons
+Female,Young,*,*,*,Birthday,1984,0.9543438980000748,0.16666666666666666,outlier,shape,0.1590573163333458,Count of persons
+*,*,*,75-84 years,*,Birthday,1943,0.9791475338788158,0.1111111111111111,outlier,shape,0.10879417043097953,Count of persons
+*,*,*,85 years and over,*,Birthday,1929,0.9787805199797434,0.1111111111111111,outlier,shape,0.10875339110886037,Count of persons
+Female,*,Never married,*,*,Birthday,1984,0.9577878421460112,0.1,outlier,shape,0.09577878421460112,Count of persons
+*,Old,*,75-84 years,*,Birthday,1943,0.9791475338788158,0.1111111111111111,outlier,shape,0.10879417043097953,Count of persons
+*,Young,*,15-19 years,*,Birthday,2001,0.8982535672312324,0.1111111111111111,outlier,shape,0.09980595191458137,Count of persons
+*,Young,*,25-34 years,*,Birthday,1989,0.9555819022575339,0.1111111111111111,outlier,shape,0.10617576691750376,Count of persons
+*,Young,*,20-24 years,*,Birthday,1996,0.9124896627819836,0.1111111111111111,outlier,shape,0.10138774030910928,Count of persons
+*,Young,*,*,*,Birthday,1989,0.9687146919596026,0.3333333333333333,outlier,shape,0.3229048973198675,Count of persons
+*,*,*,15-19 years,*,Birthday,2001,0.8982535672312324,0.1111111111111111,outlier,shape,0.09980595191458137,Count of persons
+*,Old,*,*,*,Birthday,1953,0.9991488157572939,0.3333333333333333,outlier,shape,0.33304960525243127,Count of persons
+*,*,*,25-34 years,*,Birthday,1989,0.9555819022575339,0.1111111111111111,outlier,shape,0.10617576691750376,Count of persons
+*,*,*,35-44 years,*,Birthday,1978,0.9696044230392964,0.1111111111111111,outlier,shape,0.10773382478214404,Count of persons
+*,Old,*,65-74 years,*,Birthday,1953,0.9821858626034422,0.1111111111111111,outlier,shape,0.10913176251149358,Count of persons
+*,*,*,*,*,Birthday,1989,0.9939805741362419,1.0,outlier,shape,0.9939805741362419,Count of persons
+*,*,Separated,*,*,Birthday,1967,0.974442493445709,0.2,outlier,shape,0.19488849868914182,Count of persons
+*,*,Divorced,*,*,Birthday,1956,0.97826571511272,0.2,outlier,shape,0.195653143022544,Count of persons
+*,Middle Age,*,55-64 years,*,Birthday,1963,0.9760187043087164,0.1111111111111111,outlier,shape,0.10844652270096848,Count of persons
+*,Middle Age,*,*,*,Birthday,1978,0.9819116929471431,0.3333333333333333,outlier,shape,0.32730389764904766,Count of persons
+Female,Middle Age,*,*,*,Birthday,1978,0.9817357922096014,0.16666666666666666,outlier,shape,0.16362263203493355,Count of persons
+Female,Old,*,*,*,Birthday,1948,0.9978602115706758,0.16666666666666666,outlier,shape,0.1663100352617793,Count of persons
+*,*,*,65-74 years,*,Birthday,1953,0.9821858626034422,0.1111111111111111,outlier,shape,0.10913176251149358,Count of persons
+Female,*,*,*,*,Birthday,1978,0.992497468891428,0.5,outlier,shape,0.496248734445714,Count of persons
+Male,Young,*,*,*,Birthday,1989,0.9743472607784794,0.16666666666666666,outlier,shape,0.16239121012974655,Count of persons
+*,*,Never married,*,*,Birthday,1989,0.9758329395377393,0.2,outlier,shape,0.19516658790754787,Count of persons
+Female,*,Widowed,*,*,Birthday,1935,0.9578037745771013,0.1,outlier,shape,0.09578037745771013,Count of persons
+*,*,Widowed,*,*,Birthday,1935,0.9948799123175698,0.2,outlier,shape,0.19897598246351397,Count of persons
+Male,Middle Age,*,*,*,Birthday,1983,0.9782518643820295,0.16666666666666666,outlier,shape,0.1630419773970049,Count of persons
+Male,Old,*,*,*,Birthday,1953,0.9992083465921089,0.16666666666666666,outlier,shape,0.16653472443201814,Count of persons
+*,Middle Age,*,45-54 years,*,Birthday,1968,0.9745401565848176,0.1111111111111111,outlier,shape,0.10828223962053529,Count of persons
+Male,*,*,*,*,Birthday,1989,0.9947361257082,0.5,outlier,shape,0.4973680628541,Count of persons
+*,Old,*,85 years and over,*,Birthday,1929,0.9787805199797434,0.1111111111111111,outlier,shape,0.10875339110886037,Count of persons
+*,*,Married(a),*,*,Birthday,1978,0.9005922523105855,0.2,outlier,shape,0.1801184504621171,Count of persons
+*,Middle Age,*,55-64 years,*,Marital Status,Married(a),0.6853158333142324,0.1111111111111111,attribution,point,0.07614620370158137,Count of persons
+*,*,*,55-64 years,*,Marital Status,Married(a),0.6853158333142324,0.1111111111111111,attribution,point,0.07614620370158137,Count of persons
+Male,*,Never married,*,*,Age Group,Young,0.7696742926582301,0.1,attribution,point,0.076967429265823,Count of persons
+*,Old,*,65-74 years,*,Marital Status,Married(a),0.7042421186601794,0.1111111111111111,attribution,point,0.07824912429557548,Count of persons
+Female,*,Never married,*,*,Age Group,Young,0.7810486601087863,0.1,attribution,point,0.07810486601087863,Count of persons
+Male,Young,*,*,*,Age Segment,25-34 years,0.5365265165824786,0.16666666666666666,attribution,point,0.08942108609707977,Count of persons
+Female,*,Separated,*,*,Age Group,Middle Age,0.7736659240056558,0.1,attribution,point,0.07736659240056559,Count of persons
+*,*,*,35-44 years,*,Age Group,Middle Age,0.9522096477271853,0.1111111111111111,attribution,point,0.10580107196968724,Count of persons
+Female,*,Widowed,*,*,Age Group,Old,0.8744470543966998,0.1,attribution,point,0.08744470543966998,Count of persons
+*,*,*,65-74 years,*,Marital Status,Married(a),0.7042421186601794,0.1111111111111111,attribution,point,0.07824912429557548,Count of persons
+Male,*,Widowed,*,*,Age Group,Old,0.8557939193036774,0.1,attribution,point,0.08557939193036775,Count of persons
+Male,Old,*,*,*,Age Segment,65-74 years,0.605621589668962,0.16666666666666666,attribution,point,0.10093693161149365,Count of persons
+*,*,*,20-24 years,*,Marital Status,Never married,0.9326155288105855,0.1111111111111111,attribution,point,0.1036239476456206,Count of persons
+*,*,*,25-34 years,*,Age Group,Young,0.9522096477271853,0.1111111111111111,attribution,point,0.10580107196968724,Count of persons
+Male,Middle Age,*,*,*,Marital Status,Married(a),0.6856917683834681,0.16666666666666666,attribution,point,0.11428196139724468,Count of persons
+*,*,Married(a),*,*,Age Group,Middle Age,0.6435474347908666,0.2,attribution,point,0.12870948695817333,Count of persons
+*,*,*,45-54 years,*,Age Group,Middle Age,0.9522096477271853,0.1111111111111111,attribution,point,0.10580107196968724,Count of persons
+Female,Old,*,*,*,Age Segment,65-74 years,0.538163351342194,0.16666666666666666,attribution,point,0.08969389189036565,Count of persons
+*,Young,*,20-24 years,*,Marital Status,Never married,0.9326155288105855,0.1111111111111111,attribution,point,0.1036239476456206,Count of persons
+*,*,*,65-74 years,*,Age Group,Old,0.9522096477271853,0.1111111111111111,attribution,point,0.10580107196968724,Count of persons
+Female,Young,*,*,*,Age Segment,25-34 years,0.558609296734809,0.16666666666666666,attribution,point,0.09310154945580149,Count of persons
+*,*,*,15-19 years,*,Marital Status,Never married,0.9506161288155655,0.1111111111111111,attribution,point,0.1056240143128406,Count of persons
+*,Young,*,15-19 years,*,Marital Status,Never married,0.9506161288155655,0.1111111111111111,attribution,point,0.1056240143128406,Count of persons
+Female,Middle Age,*,*,*,Marital Status,Married(a),0.6549688699066302,0.16666666666666666,attribution,point,0.10916147831777169,Count of persons
+Male,Young,*,*,*,Marital Status,Never married,0.8315385153973425,0.16666666666666666,attribution,point,0.13858975256622375,Count of persons
+*,Old,*,*,*,Sex,Female,0.5566890020986796,0.3333333333333333,attribution,point,0.18556300069955983,Count of persons
+*,*,*,20-24 years,*,Age Group,Young,0.9522096477271853,0.1111111111111111,attribution,point,0.10580107196968724,Count of persons
+*,Middle Age,*,*,*,Marital Status,Married(a),0.6700808003365615,0.3333333333333333,attribution,point,0.22336026677885382,Count of persons
+*,*,Divorced,*,*,Sex,Female,0.6183142058326849,0.2,attribution,point,0.12366284116653699,Count of persons
+*,*,Divorced,*,*,Age Group,Middle Age,0.7387293746859598,0.2,attribution,point,0.14774587493719196,Count of persons
+Male,Old,*,*,*,Marital Status,Married(a),0.7537170952244396,0.16666666666666666,attribution,point,0.12561951587073994,Count of persons
+*,*,*,*,*,Sex,Female,0.5190263520209347,1.0,attribution,point,0.5190263520209347,Count of persons
+*,*,Widowed,*,*,Age Group,Old,0.8706620320944135,0.2,attribution,point,0.17413240641888272,Count of persons
+*,Old,*,*,*,Age Segment,65-74 years,0.5692654439563725,0.3333333333333333,attribution,point,0.18975514798545748,Count of persons
+Female,Young,*,*,*,Marital Status,Never married,0.7677220943487586,0.16666666666666666,attribution,point,0.12795368239145977,Count of persons
+*,Old,*,*,*,Marital Status,Married(a),0.6110276181887077,0.3333333333333333,attribution,point,0.20367587272956922,Count of persons
+*,*,Never married,*,*,Age Group,Young,0.7751050116971808,0.2,attribution,point,0.15502100233943616,Count of persons
+*,*,Widowed,*,*,Sex,Female,0.8324710366469541,0.2,attribution,point,0.16649420732939083,Count of persons
+*,*,*,55-64 years,*,Age Group,Middle Age,0.9522096477271853,0.1111111111111111,attribution,point,0.10580107196968724,Count of persons
+*,Young,*,*,*,Age Segment,25-34 years,0.5475985930536964,0.3333333333333333,attribution,point,0.18253286435123212,Count of persons
+*,*,Never married,*,*,Sex,Male,0.5347016682511527,0.2,attribution,point,0.10694033365023055,Count of persons
+*,Young,*,*,*,Sex,Female,0.5007397156832942,0.3333333333333333,attribution,point,0.16691323856109808,Count of persons
+*,*,Married(a),*,*,Sex,Female,0.500048220405681,0.2,attribution,point,0.1000096440811362,Count of persons
+*,Middle Age,*,*,*,Sex,Female,0.5170128083047006,0.3333333333333333,attribution,point,0.17233760276823354,Count of persons
+*,*,*,75-84 years,*,Age Group,Old,0.9522096477271853,0.1111111111111111,attribution,point,0.10580107196968724,Count of persons
+*,*,*,15-19 years,*,Age Group,Young,0.9522096477271853,0.1111111111111111,attribution,point,0.10580107196968724,Count of persons
+*,*,*,85 years and over,*,Age Group,Old,0.9522096477271853,0.1111111111111111,attribution,point,0.10580107196968724,Count of persons
+*,Young,*,*,*,Marital Status,Never married,0.8011362894609957,0.3333333333333333,attribution,point,0.26704542982033186,Count of persons
+*,*,Separated,*,*,Sex,Female,0.5624327289179593,0.2,attribution,point,0.11248654578359185,Count of persons
+*,*,Separated,*,*,Age Group,Middle Age,0.764973638207973,0.2,attribution,point,0.1529947276415946,Count of persons
