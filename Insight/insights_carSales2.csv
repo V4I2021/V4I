@@ -299,3 +299,303 @@ yes,*,*,Mercedes-Benz,*,*,Year,-1,0.669246349,0.195031056,correlation,compound s
 *,*,sedan,*,*,*,Year,-1,0.999584239,0.381118012,correlation,compound shape,0.380959558,yes,*,sedan,*,*,*,Price
 *,Petrol,sedan,*,*,*,Year,-1,0.999926534,0.195031056,correlation,compound shape,0.195016728,yes,Petrol,sedan,*,*,*,Price
 *,*,*,BMW,*,*,Year,-1,0.99956333,0.159006211,correlation,compound shape,0.158936778,yes,*,*,BMW,*,*,Price
+yes,*,*,*,*,A6,Year,-1,0.385917425,0.024099379,trend,shape,0.00930037,,,,,,,Mileage
+*,Diesel,*,Audi,*,A6,Year,-1,0.399984754,0.025590062,trend,shape,0.010235635,,,,,,,Mileage
+*,*,hatch,*,*,*,Year,-1,0.145773872,0.066583851,trend,shape,0.009706186,,,,,,,Mileage
+*,*,vagon,*,*,*,Year,-1,0.126763488,0.094161491,trend,shape,0.011936239,,,,,,,Mileage
+*,*,*,Volkswagen,*,Passat B7,Year,-1,0.890376051,0.011925466,trend,shape,0.010618149,,,,,,,Mileage
+*,*,*,*,*,Passat B7,Year,-1,0.890376051,0.011925466,trend,shape,0.010618149,,,,,,,Mileage
+*,Diesel,*,*,*,A6,Year,-1,0.399984754,0.025590062,trend,shape,0.010235635,,,,,,,Mileage
+yes,*,vagon,*,*,*,Year,-1,0.216105378,0.070559006,trend,shape,0.015248181,,,,,,,Mileage
+*,Diesel,*,Mercedes-Benz,*,*,Year,-1,0.171146665,0.111055901,trend,shape,0.019006847,,,,,,,Mileage
+*,*,*,Audi,*,A6,Year,-1,0.424210769,0.038757764,trend,shape,0.016441461,,,,,,,Mileage
+yes,Petrol,*,Volkswagen,*,*,Year,-1,0.172060365,0.065093168,trend,shape,0.011199954,,,,,,,Mileage
+yes,*,*,*,*,Passat B7,Year,-1,0.956956452,0.011180124,trend,shape,0.010698892,,,,,,,Mileage
+*,*,*,*,*,A6,Year,-1,0.424210769,0.038757764,trend,shape,0.016441461,,,,,,,Mileage
+yes,*,*,BMW,*,*,Year,-1,0.080660997,0.132919255,trend,shape,0.0107214,,,,,,,Mileage
+yes,*,crossover,*,*,*,Year,-1,0.17156811,0.197515528,trend,shape,0.033887366,,,,,,,Mileage
+*,*,*,Toyota,*,*,Year,-1,0.189855917,0.126708075,trend,shape,0.024056278,,,,,,,Mileage
+yes,Diesel,*,Volkswagen,*,*,Year,-1,0.243819568,0.113291925,trend,shape,0.027622788,,,,,,,Mileage
+*,*,*,Renault,*,*,Year,-1,0.239643736,0.110559006,trend,shape,0.026494773,,,,,,,Mileage
+yes,*,*,Toyota,*,*,Year,-1,0.188074151,0.125714286,trend,shape,0.023643608,,,,,,,Mileage
+*,Diesel,van,*,*,*,Year,-1,0.125481438,0.140869565,trend,shape,0.017676516,,,,,,,Mileage
+yes,Diesel,van,*,*,*,Year,-1,0.144130765,0.135900621,trend,shape,0.019587461,,,,,,,Mileage
+yes,Diesel,*,Mercedes-Benz,*,*,Year,-1,0.198166131,0.099627329,trend,shape,0.019742762,,,,,,,Mileage
+*,Petrol,*,Volkswagen,*,*,Year,-1,0.179412626,0.068819876,trend,shape,0.012347155,,,,,,,Mileage
+*,Diesel,crossover,*,*,*,Year,-1,0.235371486,0.09515528,trend,shape,0.022396839,,,,,,,Mileage
+yes,*,*,Volkswagen,*,Passat B7,Year,-1,0.956956452,0.011180124,trend,shape,0.010698892,,,,,,,Mileage
+*,*,other,*,*,*,Year,-1,0.252648752,0.097888199,trend,shape,0.024731331,,,,,,,Mileage
+yes,Gas,*,*,*,*,Year,-1,0.138367764,0.140621118,trend,shape,0.01945743,,,,,,,Mileage
+*,Gas,*,*,*,*,Year,-1,0.138990864,0.146583851,trend,shape,0.020373816,,,,,,,Mileage
+yes,Petrol,sedan,*,*,*,Year,-1,0.211475888,0.185838509,trend,shape,0.039300364,,,,,,,Mileage
+*,*,*,Mercedes-Benz,*,*,Year,-1,0.247599089,0.20447205,trend,shape,0.050627093,,,,,,,Mileage
+yes,*,*,Volkswagen,*,*,Year,-1,0.333654699,0.20173913,trend,shape,0.067311209,,,,,,,Mileage
+*,*,*,*,*,*,Year,-1,0.370841964,1,trend,shape,0.370841964,,,,,,,Mileage
+yes,*,*,Renault,*,*,Year,-1,0.239383847,0.104347826,trend,shape,0.024979184,,,,,,,Mileage
+*,*,sedan,*,*,*,Year,-1,0.195005468,0.381118012,trend,shape,0.074320097,,,,,,,Mileage
+yes,*,sedan,*,*,*,Year,-1,0.2240506,0.337888199,trend,shape,0.075704054,,,,,,,Mileage
+*,Petrol,*,*,*,*,Year,-1,0.275266817,0.364720497,trend,shape,0.10039545,,,,,,,Mileage
+yes,*,van,*,*,*,Year,-1,0.185890221,0.149813665,trend,shape,0.027848895,,,,,,,Mileage
+*,*,*,Volkswagen,*,*,Year,-1,0.335515938,0.21863354,trend,shape,0.073355037,,,,,,,Mileage
+*,Diesel,*,Volkswagen,*,*,Year,-1,0.243899458,0.123975155,trend,shape,0.030237473,,,,,,,Mileage
+*,Diesel,*,*,*,*,Year,-1,0.339922544,0.462360248,trend,shape,0.157166672,,,,,,,Mileage
+yes,Diesel,crossover,*,*,*,Year,-1,0.231507862,0.090186335,trend,shape,0.020878846,,,,,,,Mileage
+*,*,van,*,*,*,Year,-1,0.171524107,0.15552795,trend,shape,0.026676793,,,,,,,Mileage
+yes,*,other,*,*,*,Year,-1,0.261993788,0.092173913,trend,shape,0.024148993,,,,,,,Mileage
+*,*,crossover,*,*,*,Year,-1,0.167189454,0.204720497,trend,shape,0.034227108,,,,,,,Mileage
+yes,*,*,Mercedes-Benz,*,*,Year,-1,0.277570998,0.187826087,trend,shape,0.052135074,,,,,,,Mileage
+yes,Petrol,*,*,*,*,Year,-1,0.271779884,0.346086957,trend,shape,0.094059473,,,,,,,Mileage
+yes,*,*,Audi,*,*,Year,-1,0.176166539,0.081490683,trend,shape,0.014355932,,,,,,,Mileage
+yes,*,*,*,*,*,Year,-1,0.379629575,0.907826087,trend,shape,0.344637631,,,,,,,Mileage
+yes,Diesel,*,*,*,*,Year,-1,0.389508837,0.398509317,trend,shape,0.1552229,,,,,,,Mileage
+*,Petrol,sedan,*,*,*,Year,-1,0.207036686,0.195031056,trend,shape,0.040378583,,,,,,,Mileage
+*,*,*,*,*,Kangoo,Year,2012,0.756351514,0.03378882,top1,point,0.025556225,,,,,,,Mileage
+*,Petrol,*,Mitsubishi,*,*,Body,sedan,0.720771053,0.03552795,top1,point,0.025607518,,,,,,,Mileage
+*,*,*,Renault,*,Kangoo,Year,2012,0.756351514,0.03378882,top1,point,0.025556225,,,,,,,Mileage
+*,*,crossover,Mitsubishi,*,*,Engine Type,Gas,0.908137684,0.032546584,top1,point,0.029556779,,,,,,,Mileage
+*,*,vagon,Renault,*,*,Engine Type,Diesel,0.996505024,0.026086957,top1,point,0.025995783,,,,,,,Mileage
+*,*,*,*,2000,*,Body,sedan,0.875894511,0.035279503,top1,point,0.030901123,,,,,,,Mileage
+yes,*,*,*,*,Camry,Body,sedan,0.986473728,0.031552795,top1,point,0.031126003,,,,,,,Mileage
+*,*,*,*,*,Camry,Body,sedan,0.986473728,0.031552795,top1,point,0.031126003,,,,,,,Mileage
+*,Diesel,van,Mercedes-Benz,*,*,Model,Vito,0.855364811,0.038757764,top1,point,0.033152027,,,,,,,Mileage
+*,*,*,Toyota,*,Camry,Body,sedan,0.986473728,0.031552795,top1,point,0.031126003,,,,,,,Mileage
+yes,*,hatch,*,*,*,Engine Type,Petrol,0.437194303,0.059875776,top1,point,0.026177348,,,,,,,Mileage
+yes,*,crossover,Mitsubishi,*,*,Engine Type,Gas,0.978787087,0.031801242,top1,point,0.031126645,,,,,,,Mileage
+no,*,*,*,*,*,Engine Type,Diesel,0.669868814,0.092173913,top1,point,0.06174443,,,,,,,Mileage
+*,Petrol,*,Audi,*,*,Body,sedan,0.959726762,0.039503106,top1,point,0.037912188,,,,,,,Mileage
+yes,*,*,*,*,E-Class,Body,sedan,0.998208715,0.04,top1,point,0.039928349,,,,,,,Mileage
+yes,Petrol,*,Audi,*,*,Body,sedan,0.899610135,0.037763975,top1,point,0.033972855,,,,,,,Mileage
+yes,Diesel,*,*,2012,*,Body,van,0.652450403,0.049192547,top1,point,0.032095697,,,,,,,Mileage
+yes,*,*,Mercedes-Benz,*,E-Class,Body,sedan,0.998208715,0.04,top1,point,0.039928349,,,,,,,Mileage
+*,*,van,Mercedes-Benz,*,*,Model,Vito,0.842715217,0.040745342,top1,point,0.034336719,,,,,,,Mileage
+yes,*,*,*,*,Kangoo,Engine Type,Diesel,0.998972327,0.033540373,top1,point,0.033505904,,,,,,,Mileage
+*,*,vagon,*,*,*,Engine Type,Diesel,0.475953734,0.094161491,top1,point,0.044816513,,,,,,,Mileage
+yes,*,*,Toyota,*,Camry,Body,sedan,0.986473728,0.031552795,top1,point,0.031126003,,,,,,,Mileage
+*,*,*,*,*,Kangoo,Engine Type,Diesel,0.998984675,0.03378882,top1,point,0.033754513,,,,,,,Mileage
+yes,*,*,Renault,*,Kangoo,Engine Type,Diesel,0.998972327,0.033540373,top1,point,0.033505904,,,,,,,Mileage
+no,*,*,*,*,*,Body,sedan,0.59048461,0.092173913,top1,point,0.054427277,,,,,,,Mileage
+yes,*,van,*,*,*,Engine Type,Diesel,0.999192013,0.149813665,top1,point,0.149692617,,,,,,,Mileage
+*,*,*,Renault,*,*,Engine Type,Diesel,0.941293036,0.110559006,top1,point,0.104068423,,,,,,,Mileage
+*,Gas,*,*,*,*,Body,sedan,0.482946002,0.146583851,top1,point,0.070792085,,,,,,,Mileage
+*,*,van,Volkswagen,*,*,Engine Type,Diesel,0.988023142,0.063354037,top1,point,0.062595255,,,,,,,Mileage
+*,*,*,Mercedes-Benz,*,E-Class,Body,sedan,0.998889149,0.046708075,top1,point,0.046656189,,,,,,,Mileage
+yes,*,*,Volkswagen,*,*,Body,van,0.20018751,0.20173913,top1,point,0.040385654,,,,,,,Mileage
+yes,*,*,*,*,*,Body,sedan,0.265136433,0.907826087,top1,point,0.24069777,,,,,,,Mileage
+*,*,crossover,BMW,*,*,Model,X5,0.900416108,0.042981366,top1,point,0.038701115,,,,,,,Mileage
+*,Petrol,*,BMW,*,*,Body,sedan,0.439436096,0.076024845,top1,point,0.033408061,,,,,,,Mileage
+*,Diesel,*,*,2012,*,Body,van,0.67693003,0.049689441,top1,point,0.033636275,,,,,,,Mileage
+*,Petrol,*,*,*,*,Body,sedan,0.744266876,0.364720497,top1,point,0.271449385,,,,,,,Mileage
+*,*,van,Renault,*,*,Engine Type,Diesel,0.998038246,0.047701863,top1,point,0.047608284,,,,,,,Mileage
+yes,Diesel,*,Volkswagen,*,*,Body,van,0.927054043,0.113291925,top1,point,0.105027738,,,,,,,Mileage
+yes,Gas,*,*,*,*,Body,sedan,0.458643293,0.140621118,top1,point,0.064494933,,,,,,,Mileage
+yes,*,van,Volkswagen,*,*,Engine Type,Diesel,0.991906426,0.061614907,top1,point,0.061116222,,,,,,,Mileage
+yes,*,*,Renault,*,*,Engine Type,Diesel,0.959086931,0.104347826,top1,point,0.100078636,,,,,,,Mileage
+*,*,*,*,*,E-Class,Body,sedan,0.998889149,0.046708075,top1,point,0.046656189,,,,,,,Mileage
+*,*,van,*,*,*,Engine Type,Diesel,0.999165096,0.15552795,top1,point,0.155398099,,,,,,,Mileage
+yes,*,van,Renault,*,*,Engine Type,Diesel,0.997854679,0.045962733,top1,point,0.045864128,,,,,,,Mileage
+*,*,hatch,*,*,*,Brand,Volkswagen,0.642689553,0.066583851,top1,point,0.042792745,,,,,,,Mileage
+yes,*,crossover,BMW,*,*,Model,X5,0.899745373,0.039751553,top1,point,0.035766276,,,,,,,Mileage
+*,*,*,Renault,*,Kangoo,Engine Type,Diesel,0.998984675,0.03378882,top1,point,0.033754513,,,,,,,Mileage
+*,*,*,*,*,*,Body,sedan,0.575590286,1,top1,point,0.575590286,,,,,,,Mileage
+yes,Petrol,*,*,*,*,Body,sedan,0.695274844,0.346086957,top1,point,0.240625555,,,,,,,Mileage
+*,Diesel,*,Volkswagen,*,*,Body,van,0.941413226,0.123975155,top1,point,0.116711851,,,,,,,Mileage
+yes,*,*,Mitsubishi,*,*,Year,2014,1,0.07378882,change point,shape,0.07378882,,,,,,,Mileage
+*,Gas,sedan,*,*,*,Year,1996,1,0.074037267,change point,shape,0.074037267,,,,,,,Mileage
+*,Petrol,*,BMW,*,*,Year,1995,1,0.076024845,change point,shape,0.076024845,,,,,,,Mileage
+*,Diesel,*,Renault,*,*,Year,2002,1,0.083229814,change point,shape,0.083229814,,,,,,,Mileage
+*,*,*,Mitsubishi,*,*,Year,2014,1,0.076273292,change point,shape,0.076273292,,,,,,,Mileage
+yes,*,sedan,Mercedes-Benz,*,*,Year,1993,1,0.078509317,change point,shape,0.078509317,,,,,,,Mileage
+yes,*,*,Audi,*,*,Year,2014,1,0.081490683,change point,shape,0.081490683,,,,,,,Mileage
+*,Diesel,sedan,*,*,*,Year,1999,1,0.100869565,change point,shape,0.100869565,,,,,,,Mileage
+yes,Diesel,crossover,*,*,*,Year,2004,1,0.090186335,change point,shape,0.090186335,,,,,,,Mileage
+*,*,sedan,Mercedes-Benz,*,*,Year,2015,1,0.088447205,change point,shape,0.088447205,,,,,,,Mileage
+yes,Diesel,*,Renault,*,*,Year,2003,1,0.07826087,change point,shape,0.07826087,,,,,,,Mileage
+no,*,*,*,*,*,Year,2007,1,0.092173913,change point,shape,0.092173913,,,,,,,Mileage
+*,*,sedan,BMW,*,*,Year,2002,1,0.089689441,change point,shape,0.089689441,,,,,,,Mileage
+yes,*,other,*,*,*,Year,2013,1,0.092173913,change point,shape,0.092173913,,,,,,,Mileage
+yes,Diesel,*,Volkswagen,*,*,Year,2013,1,0.113291925,change point,shape,0.113291925,,,,,,,Mileage
+*,*,*,Audi,*,*,Year,2014,1,0.104347826,change point,shape,0.104347826,,,,,,,Mileage
+yes,*,*,Mercedes-Benz,*,*,Year,1994,1,0.187826087,change point,shape,0.187826087,,,,,,,Mileage
+*,*,*,Renault,*,*,Year,2002,1,0.110559006,change point,shape,0.110559006,,,,,,,Mileage
+yes,*,*,Renault,*,*,Year,1990,1,0.104347826,change point,shape,0.104347826,,,,,,,Mileage
+*,*,vagon,*,*,*,Year,1999,1,0.094161491,change point,shape,0.094161491,,,,,,,Mileage
+*,Diesel,*,Volkswagen,*,*,Year,2013,1,0.123975155,change point,shape,0.123975155,,,,,,,Mileage
+*,Diesel,*,Mercedes-Benz,*,*,Year,2014,1,0.111055901,change point,shape,0.111055901,,,,,,,Mileage
+*,Diesel,crossover,*,*,*,Year,2003,1,0.09515528,change point,shape,0.09515528,,,,,,,Mileage
+yes,Gas,*,*,*,*,Year,2009,1,0.140621118,change point,shape,0.140621118,,,,,,,Mileage
+yes,Diesel,*,Mercedes-Benz,*,*,Year,1998,1,0.099627329,change point,shape,0.099627329,,,,,,,Mileage
+*,*,other,*,*,*,Year,2013,1,0.097888199,change point,shape,0.097888199,,,,,,,Mileage
+yes,*,van,*,*,*,Year,1998,1,0.149813665,change point,shape,0.149813665,,,,,,,Mileage
+*,*,*,BMW,*,*,Year,1985,1,0.159006211,change point,shape,0.159006211,,,,,,,Mileage
+*,Gas,*,*,*,*,Year,2009,1,0.146583851,change point,shape,0.146583851,,,,,,,Mileage
+*,*,*,Mercedes-Benz,*,*,Year,2013,1,0.20447205,change point,shape,0.20447205,,,,,,,Mileage
+yes,Petrol,*,*,*,*,Year,2006,1,0.346086957,change point,shape,0.346086957,,,,,,,Mileage
+*,*,*,*,*,*,Year,2013,1,1,change point,shape,1,,,,,,,Mileage
+*,*,*,Toyota,*,*,Year,1985,1,0.126708075,change point,shape,0.126708075,,,,,,,Mileage
+*,Petrol,*,*,*,*,Year,2006,1,0.364720497,change point,shape,0.364720497,,,,,,,Mileage
+yes,*,*,Volkswagen,*,*,Year,2004,1,0.20173913,change point,shape,0.20173913,,,,,,,Mileage
+*,*,sedan,*,*,*,Year,1996,1,0.381118012,change point,shape,0.381118012,,,,,,,Mileage
+yes,Petrol,sedan,*,*,*,Year,2013,1,0.185838509,change point,shape,0.185838509,,,,,,,Mileage
+*,*,*,Volkswagen,*,*,Year,1998,1,0.21863354,change point,shape,0.21863354,,,,,,,Mileage
+yes,Diesel,*,*,*,*,Year,1999,1,0.398509317,change point,shape,0.398509317,,,,,,,Mileage
+*,Diesel,*,*,*,*,Year,1999,1,0.462360248,change point,shape,0.462360248,,,,,,,Mileage
+yes,*,*,BMW,*,*,Year,1985,1,0.132919255,change point,shape,0.132919255,,,,,,,Mileage
+*,*,van,*,*,*,Year,1999,1,0.15552795,change point,shape,0.15552795,,,,,,,Mileage
+*,Petrol,sedan,*,*,*,Year,2013,1,0.195031056,change point,shape,0.195031056,,,,,,,Mileage
+*,*,crossover,*,*,*,Year,1991,1,0.204720497,change point,shape,0.204720497,,,,,,,Mileage
+yes,*,*,Toyota,*,*,Year,1985,1,0.125714286,change point,shape,0.125714286,,,,,,,Mileage
+yes,Diesel,van,*,*,*,Year,1998,1,0.135900621,change point,shape,0.135900621,,,,,,,Mileage
+yes,*,crossover,*,*,*,Year,1991,1,0.197515528,change point,shape,0.197515528,,,,,,,Mileage
+yes,*,*,*,*,*,Year,2013,1,0.907826087,change point,shape,0.907826087,,,,,,,Mileage
+*,Diesel,van,*,*,*,Year,1999,1,0.140869565,change point,shape,0.140869565,,,,,,,Mileage
+yes,*,sedan,*,*,*,Year,1984,1,0.337888199,change point,shape,0.337888199,,,,,,,Mileage
+*,Gas,sedan,*,*,*,Year,2007,0.98603251,0.074037267,outlier,shape,0.073003152,,,,,,,Mileage
+*,*,*,Mitsubishi,*,*,Year,2008,0.999975741,0.076273292,outlier,shape,0.076271442,,,,,,,Mileage
+*,Petrol,*,BMW,*,*,Year,1998,0.969246575,0.076024845,outlier,shape,0.07368682,,,,,,,Mileage
+yes,*,*,Audi,*,*,Year,2007,0.990276632,0.081490683,outlier,shape,0.080698319,,,,,,,Mileage
+yes,*,sedan,Mercedes-Benz,*,*,Year,2000,0.994224438,0.078509317,outlier,shape,0.078055881,,,,,,,Mileage
+*,*,sedan,Mercedes-Benz,*,*,Year,2000,0.997928924,0.088447205,outlier,shape,0.088264024,,,,,,,Mileage
+yes,*,*,Mitsubishi,*,*,Year,2008,0.999973595,0.07378882,outlier,shape,0.073786872,,,,,,,Mileage
+yes,Diesel,*,Mercedes-Benz,*,*,Year,2007,0.98762037,0.099627329,outlier,shape,0.09839398,,,,,,,Mileage
+*,Diesel,crossover,*,*,*,Year,2008,0.990729735,0.09515528,outlier,shape,0.094273165,,,,,,,Mileage
+yes,Diesel,crossover,*,*,*,Year,2008,0.991274989,0.090186335,outlier,shape,0.089399459,,,,,,,Mileage
+yes,Diesel,*,Renault,*,*,Year,2012,0.999395369,0.07826087,outlier,shape,0.078213551,,,,,,,Mileage
+no,*,*,*,*,*,Year,2000,0.989206395,0.092173913,outlier,shape,0.091179024,,,,,,,Mileage
+*,*,other,*,*,*,Year,2007,0.990388822,0.097888199,outlier,shape,0.096947378,,,,,,,Mileage
+yes,*,other,*,*,*,Year,2007,0.993905627,0.092173913,outlier,shape,0.091612171,,,,,,,Mileage
+*,*,sedan,BMW,*,*,Year,2001,0.997500267,0.089689441,outlier,shape,0.089465241,,,,,,,Mileage
+*,*,*,Audi,*,*,Year,2003,0.976235723,0.104347826,outlier,shape,0.101868075,,,,,,,Mileage
+yes,*,*,BMW,*,*,Year,2001,0.986548948,0.132919255,outlier,shape,0.131131351,,,,,,,Mileage
+*,*,*,Renault,*,*,Year,2012,0.999724359,0.110559006,outlier,shape,0.110528532,,,,,,,Mileage
+yes,*,*,Renault,*,*,Year,2012,0.999799617,0.104347826,outlier,shape,0.104326917,,,,,,,Mileage
+*,*,vagon,*,*,*,Year,2011,0.9782309,0.094161491,outlier,shape,0.09211168,,,,,,,Mileage
+*,*,van,*,*,*,Year,2012,0.992440651,0.15552795,outlier,shape,0.15435226,,,,,,,Mileage
+*,Diesel,*,Mercedes-Benz,*,*,Year,2007,0.981803232,0.111055901,outlier,shape,0.109035042,,,,,,,Mileage
+*,Diesel,*,Renault,*,*,Year,2012,0.999495009,0.083229814,outlier,shape,0.083187783,,,,,,,Mileage
+yes,Petrol,sedan,*,*,*,Year,2007,0.999072585,0.185838509,outlier,shape,0.18566616,,,,,,,Mileage
+yes,Diesel,*,Volkswagen,*,*,Year,2011,0.988442419,0.113291925,outlier,shape,0.111982545,,,,,,,Mileage
+*,Diesel,*,Volkswagen,*,*,Year,2011,0.981723166,0.123975155,outlier,shape,0.121709282,,,,,,,Mileage
+*,Diesel,sedan,*,*,*,Year,2001,0.996435309,0.100869565,outlier,shape,0.100509996,,,,,,,Mileage
+*,*,*,BMW,*,*,Year,2001,0.990621084,0.159006211,outlier,shape,0.157514905,,,,,,,Mileage
+*,Gas,*,*,*,*,Year,2008,0.998984098,0.146583851,outlier,shape,0.146434936,,,,,,,Mileage
+*,*,*,Mercedes-Benz,*,*,Year,2007,0.98532859,0.20447205,outlier,shape,0.201472156,,,,,,,Mileage
+*,Diesel,van,*,*,*,Year,2012,0.993712686,0.140869565,outlier,shape,0.139983874,,,,,,,Mileage
+*,*,*,*,*,*,Year,2008,0.994837838,1,outlier,shape,0.994837838,,,,,,,Mileage
+*,*,*,Toyota,*,*,Year,2008,0.99987734,0.126708075,outlier,shape,0.126692533,,,,,,,Mileage
+*,Petrol,*,*,*,*,Year,2008,0.99908506,0.364720497,outlier,shape,0.3643868,,,,,,,Mileage
+yes,*,*,Mercedes-Benz,*,*,Year,2007,0.99228495,0.187826087,outlier,shape,0.186376999,,,,,,,Mileage
+*,*,sedan,*,*,*,Year,2007,0.99171938,0.381118012,outlier,shape,0.377962119,,,,,,,Mileage
+yes,*,*,Volkswagen,*,*,Year,2011,0.9929508,0.20173913,outlier,shape,0.200317031,,,,,,,Mileage
+*,*,*,Volkswagen,*,*,Year,2011,0.989196306,0.21863354,outlier,shape,0.216271491,,,,,,,Mileage
+yes,Gas,*,*,*,*,Year,2008,0.999302315,0.140621118,outlier,shape,0.140523009,,,,,,,Mileage
+*,Diesel,*,*,*,*,Year,2012,0.974426799,0.462360248,outlier,shape,0.450536217,,,,,,,Mileage
+yes,*,van,*,*,*,Year,2012,0.994352768,0.149813665,outlier,shape,0.148967632,,,,,,,Mileage
+*,Petrol,sedan,*,*,*,Year,2007,0.998358841,0.195031056,outlier,shape,0.194710979,,,,,,,Mileage
+yes,*,crossover,*,*,*,Year,2008,0.99958094,0.197515528,outlier,shape,0.197432757,,,,,,,Mileage
+*,*,crossover,*,*,*,Year,2008,0.999456256,0.204720497,outlier,shape,0.204609181,,,,,,,Mileage
+yes,*,*,Toyota,*,*,Year,2008,0.999887562,0.125714286,outlier,shape,0.125700151,,,,,,,Mileage
+yes,Diesel,van,*,*,*,Year,2012,0.995268652,0.135900621,outlier,shape,0.135257628,,,,,,,Mileage
+yes,Petrol,*,*,*,*,Year,2008,0.999471451,0.346086957,outlier,shape,0.345904032,,,,,,,Mileage
+yes,*,*,*,*,*,Year,2008,0.998285377,0.907826087,outlier,shape,0.906269507,,,,,,,Mileage
+yes,Diesel,*,*,*,*,Year,2012,0.992793809,0.398509317,outlier,shape,0.395637583,,,,,,,Mileage
+yes,*,sedan,*,*,*,Year,2007,0.998305473,0.337888199,outlier,shape,0.337315638,,,,,,,Mileage
+*,Petrol,*,Volkswagen,*,*,Registration,yes,0.926007606,0.068819876,attribution,point,0.063727728,,,,,,,Mileage
+*,Diesel,*,Volkswagen,*,*,Body,van,0.517582619,0.123975155,attribution,point,0.064167386,,,,,,,Mileage
+yes,Diesel,*,Volkswagen,*,*,Body,van,0.582634278,0.113291925,attribution,point,0.066007759,,,,,,,Mileage
+no,*,*,*,*,*,Engine Type,Diesel,0.783652656,0.092173913,attribution,point,0.072232332,,,,,,,Mileage
+*,Petrol,*,BMW,*,*,Registration,yes,0.893879423,0.076024845,attribution,point,0.067957044,,,,,,,Mileage
+*,*,vagon,*,*,*,Registration,yes,0.734732673,0.094161491,attribution,point,0.069183524,,,,,,,Mileage
+*,*,*,Mitsubishi,*,*,Registration,yes,0.935952323,0.076273292,attribution,point,0.071388165,,,,,,,Mileage
+*,*,sedan,BMW,*,*,Registration,yes,0.820801732,0.089689441,attribution,point,0.073617249,,,,,,,Mileage
+*,*,*,*,2007,*,Registration,yes,0.939654424,0.082981366,attribution,point,0.077973808,,,,,,,Mileage
+*,Diesel,sedan,*,*,*,Registration,yes,0.675491246,0.100869565,attribution,point,0.068136508,,,,,,,Mileage
+*,Gas,sedan,*,*,*,Registration,yes,0.931622161,0.074037267,attribution,point,0.068974759,,,,,,,Mileage
+*,*,sedan,Mercedes-Benz,*,*,Registration,yes,0.880414093,0.088447205,attribution,point,0.077870166,,,,,,,Mileage
+*,*,*,Renault,*,*,Registration,yes,0.921681823,0.110559006,attribution,point,0.101900226,,,,,,,Mileage
+*,*,*,Renault,*,*,Engine Type,Diesel,0.830515859,0.110559006,attribution,point,0.091821008,,,,,,,Mileage
+*,*,vagon,*,*,*,Engine Type,Diesel,0.772593415,0.094161491,attribution,point,0.072748548,,,,,,,Mileage
+*,Diesel,*,Renault,*,*,Registration,yes,0.918803939,0.083229814,attribution,point,0.076471881,,,,,,,Mileage
+*,*,*,*,2008,*,Registration,yes,0.94824288,0.097639752,attribution,point,0.092586199,,,,,,,Mileage
+*,Diesel,crossover,*,*,*,Registration,yes,0.903871562,0.09515528,attribution,point,0.086008151,,,,,,,Mileage
+yes,*,*,Renault,*,*,Engine Type,Diesel,0.826313867,0.104347826,attribution,point,0.086224056,,,,,,,Mileage
+*,*,*,Audi,*,*,Registration,yes,0.736502203,0.104347826,attribution,point,0.076852404,,,,,,,Mileage
+*,*,*,*,2011,*,Registration,yes,0.943688824,0.075031056,attribution,point,0.070805969,,,,,,,Mileage
+*,*,*,BMW,*,*,Body,sedan,0.717252971,0.159006211,attribution,point,0.114047677,,,,,,,Mileage
+*,Diesel,*,Volkswagen,*,*,Registration,yes,0.89864549,0.123975155,attribution,point,0.111409714,,,,,,,Mileage
+*,*,*,*,2012,*,Registration,yes,0.950738465,0.083478261,attribution,point,0.079365994,,,,,,,Mileage
+yes,Gas,*,*,*,*,Body,sedan,0.562514915,0.140621118,attribution,point,0.079101476,,,,,,,Mileage
+*,*,crossover,*,*,*,Registration,yes,0.928119604,0.204720497,attribution,point,0.190005107,,,,,,,Mileage
+*,*,*,Toyota,*,*,Registration,yes,0.947331404,0.126708075,attribution,point,0.120034538,,,,,,,Mileage
+*,Gas,*,*,*,*,Registration,yes,0.933904697,0.146583851,attribution,point,0.136895347,,,,,,,Mileage
+*,*,*,Volkswagen,*,*,Registration,yes,0.908166501,0.21863354,attribution,point,0.198555657,,,,,,,Mileage
+*,*,*,Volkswagen,*,*,Engine Type,Diesel,0.636439916,0.21863354,attribution,point,0.139147112,,,,,,,Mileage
+*,*,other,*,*,*,Registration,yes,0.920791419,0.097888199,attribution,point,0.090134613,,,,,,,Mileage
+*,*,*,*,*,*,Registration,yes,0.888955206,1,attribution,point,0.888955206,,,,,,,Mileage
+yes,*,*,Volkswagen,*,*,Engine Type,Diesel,0.622291014,0.20173913,attribution,point,0.125540448,,,,,,,Mileage
+*,Petrol,*,*,*,*,Body,sedan,0.628779324,0.364720497,attribution,point,0.229328707,,,,,,,Mileage
+yes,*,*,BMW,*,*,Body,sedan,0.711771109,0.132919255,attribution,point,0.094608085,,,,,,,Mileage
+*,*,sedan,*,*,*,Registration,yes,0.873653549,0.381118012,attribution,point,0.332965104,,,,,,,Mileage
+yes,*,*,Mercedes-Benz,*,*,Engine Type,Diesel,0.589544328,0.187826087,attribution,point,0.110731804,,,,,,,Mileage
+*,*,*,BMW,*,*,Registration,yes,0.825663893,0.159006211,attribution,point,0.131285687,,,,,,,Mileage
+*,Diesel,*,Mercedes-Benz,*,*,Registration,yes,0.881310532,0.111055901,attribution,point,0.097874735,,,,,,,Mileage
+*,Diesel,*,*,*,*,Registration,yes,0.843777287,0.462360248,attribution,point,0.390129076,,,,,,,Mileage
+*,*,van,*,*,*,Engine Type,Diesel,0.918124306,0.15552795,attribution,point,0.142793991,,,,,,,Mileage
+*,*,*,Mercedes-Benz,*,*,Registration,yes,0.900455534,0.20447205,attribution,point,0.184117989,,,,,,,Mileage
+*,Petrol,sedan,*,*,*,Registration,yes,0.928187293,0.195031056,attribution,point,0.181025348,,,,,,,Mileage
+*,*,van,*,*,*,Registration,yes,0.932466644,0.15552795,attribution,point,0.145024626,,,,,,,Mileage
+yes,Petrol,*,*,*,*,Body,sedan,0.637259247,0.346086957,attribution,point,0.220547113,,,,,,,Mileage
+*,*,*,Mercedes-Benz,*,*,Engine Type,Diesel,0.615833765,0.20447205,attribution,point,0.125920792,,,,,,,Mileage
+yes,*,van,*,*,*,Engine Type,Diesel,0.918228053,0.149813665,attribution,point,0.13756311,,,,,,,Mileage
+*,Petrol,*,*,*,*,Registration,yes,0.92328203,0.364720497,attribution,point,0.336739881,,,,,,,Mileage
+*,Diesel,van,*,*,*,Registration,yes,0.932559183,0.140869565,attribution,point,0.131369207,,,,,,,Mileage
+*,Gas,*,*,*,*,Body,sedan,0.56650723,0.146583851,attribution,point,0.083040811,,,,,,,Mileage
+*,*,sedan,Volkswagen,*,*,Year,-1,0.95627631,0.06310559,correlation,compound shape,0.060346381,yes,*,sedan,Volkswagen,*,*,Mileage
+*,*,hatch,*,*,*,Year,-1,0.934547042,0.066583851,correlation,compound shape,0.062225741,yes,*,hatch,*,*,*,Mileage
+yes,*,*,Audi,*,*,Year,-1,0.740613341,0.081490683,correlation,compound shape,0.060353087,yes,*,sedan,Audi,*,*,Mileage
+*,Petrol,*,Toyota,*,*,Year,-1,0.999807751,0.062608696,correlation,compound shape,0.062596659,yes,Petrol,*,Toyota,*,*,Mileage
+*,Petrol,crossover,*,*,*,Year,-1,0.998596885,0.06484472,correlation,compound shape,0.064753736,yes,Petrol,crossover,*,*,*,Mileage
+yes,*,van,Volkswagen,*,*,Year,-1,0.985681176,0.061614907,correlation,compound shape,0.060732654,*,Diesel,van,Volkswagen,*,*,Mileage
+*,*,van,Volkswagen,*,*,Year,-1,0.992312838,0.063354037,correlation,compound shape,0.062867025,yes,Diesel,van,Volkswagen,*,*,Mileage
+*,*,van,Volkswagen,*,*,Year,-1,0.996358122,0.063354037,correlation,compound shape,0.06312331,yes,*,van,Volkswagen,*,*,Mileage
+*,Petrol,*,BMW,*,*,Year,-1,0.922075932,0.076024845,correlation,compound shape,0.07010068,yes,Petrol,*,BMW,*,*,Mileage
+*,Petrol,*,Volkswagen,*,*,Year,-1,0.98066608,0.068819876,correlation,compound shape,0.067489318,yes,Petrol,*,Volkswagen,*,*,Mileage
+*,Gas,sedan,*,*,*,Year,-1,0.993401321,0.074037267,correlation,compound shape,0.073548719,yes,Gas,sedan,*,*,*,Mileage
+*,*,van,Volkswagen,*,*,Year,-1,0.991563291,0.063354037,correlation,compound shape,0.062819538,*,Diesel,van,Volkswagen,*,*,Mileage
+yes,*,*,Mercedes-Benz,*,*,Year,-1,0.87997463,0.187826087,correlation,compound shape,0.165282191,yes,Petrol,sedan,*,*,*,Mileage
+yes,Diesel,van,*,*,*,Year,-1,0.92182276,0.135900621,correlation,compound shape,0.125276286,*,Diesel,van,Volkswagen,*,*,Mileage
+*,Diesel,*,Renault,*,*,Year,-1,0.943722098,0.083229814,correlation,compound shape,0.078545814,*,*,van,Renault,*,*,Mileage
+*,*,vagon,*,*,*,Year,-1,0.777570613,0.094161491,correlation,compound shape,0.073217208,yes,*,vagon,*,*,*,Mileage
+yes,Diesel,van,*,*,*,Year,-1,0.927252585,0.135900621,correlation,compound shape,0.126014202,yes,Diesel,van,Volkswagen,*,*,Mileage
+*,Diesel,*,Renault,*,*,Year,-1,0.949414756,0.083229814,correlation,compound shape,0.079019613,*,Diesel,van,Renault,*,*,Mileage
+*,*,sedan,Mercedes-Benz,*,*,Year,-1,0.975803911,0.088447205,correlation,compound shape,0.086307129,yes,*,sedan,Mercedes-Benz,*,*,Mileage
+*,*,*,Audi,*,*,Year,-1,0.673788127,0.104347826,correlation,compound shape,0.070308326,yes,*,sedan,Audi,*,*,Mileage
+*,Diesel,sedan,*,*,*,Year,-1,0.867821558,0.100869565,correlation,compound shape,0.087536783,yes,Diesel,sedan,*,*,*,Mileage
+*,*,*,Mitsubishi,*,*,Year,-1,0.998165709,0.076273292,correlation,compound shape,0.076133385,yes,*,*,Mitsubishi,*,*,Mileage
+*,*,sedan,BMW,*,*,Year,-1,0.951217305,0.089689441,correlation,compound shape,0.085314148,yes,*,sedan,BMW,*,*,Mileage
+*,Diesel,van,*,*,*,Year,-1,0.927103721,0.140869565,correlation,compound shape,0.130600698,yes,Diesel,van,Volkswagen,*,*,Mileage
+*,*,van,Volkswagen,*,*,Year,-1,0.916197202,0.135900621,correlation,compound shape,0.124511769,yes,Diesel,van,*,*,*,Mileage
+*,*,*,Mercedes-Benz,*,*,Year,-1,0.984284563,0.20447205,correlation,compound shape,0.201258682,yes,*,*,Mercedes-Benz,*,*,Mileage
+*,Petrol,sedan,*,*,*,Year,-1,0.991700281,0.195031056,correlation,compound shape,0.193412353,yes,Petrol,sedan,*,*,*,Mileage
+*,Petrol,*,*,*,*,Year,-1,0.991303049,0.364720497,correlation,compound shape,0.361548541,yes,Petrol,*,*,*,*,Mileage
+*,*,*,Mercedes-Benz,*,*,Year,-1,0.833292876,0.20447205,correlation,compound shape,0.170385102,yes,Petrol,sedan,*,*,*,Mileage
+*,*,*,Mercedes-Benz,*,*,Year,-1,0.860535006,0.20447205,correlation,compound shape,0.175955357,*,Petrol,sedan,*,*,*,Mileage
+*,Diesel,van,*,*,*,Year,-1,0.919681604,0.140869565,correlation,compound shape,0.129555148,yes,*,van,Volkswagen,*,*,Mileage
+*,*,*,*,*,*,Year,-1,0.977870239,1,correlation,compound shape,0.977870239,yes,*,*,*,*,*,Mileage
+*,*,*,Audi,*,*,Year,-1,0.865457892,0.104347826,correlation,compound shape,0.09030865,*,*,sedan,Audi,*,*,Mileage
+*,Gas,*,*,*,*,Year,-1,0.997189746,0.146583851,correlation,compound shape,0.146171913,yes,Gas,*,*,*,*,Mileage
+yes,*,*,Mercedes-Benz,*,*,Year,-1,0.894474143,0.195031056,correlation,compound shape,0.174450237,*,Petrol,sedan,*,*,*,Mileage
+*,*,crossover,*,*,*,Year,-1,0.996338291,0.204720497,correlation,compound shape,0.20397087,yes,*,crossover,*,*,*,Mileage
+*,*,*,Audi,*,*,Year,-1,0.78661279,0.104347826,correlation,compound shape,0.082081335,yes,*,*,Audi,*,*,Mileage
+*,*,*,Toyota,*,*,Year,-1,0.999176033,0.126708075,correlation,compound shape,0.126603671,yes,*,*,Toyota,*,*,Mileage
+*,Diesel,van,*,*,*,Year,-1,0.917863487,0.140869565,correlation,compound shape,0.12929903,*,*,van,Volkswagen,*,*,Mileage
+*,Diesel,*,*,*,*,Year,-1,0.950607202,0.462360248,correlation,compound shape,0.439522982,yes,Diesel,*,*,*,*,Mileage
+*,*,*,Renault,*,*,Year,-1,0.992437977,0.110559006,correlation,compound shape,0.109722956,yes,*,*,Renault,*,*,Mileage
+*,*,*,Volkswagen,*,*,Year,-1,0.986736998,0.21863354,correlation,compound shape,0.215733803,yes,*,*,Volkswagen,*,*,Mileage
+*,Diesel,van,*,*,*,Year,-1,0.996306535,0.140869565,correlation,compound shape,0.140349268,yes,Diesel,van,*,*,*,Mileage
+*,*,other,*,*,*,Year,-1,0.989788106,0.097888199,correlation,compound shape,0.096888575,yes,*,other,*,*,*,Mileage
+*,Diesel,van,*,*,*,Year,-1,0.925717758,0.140869565,correlation,compound shape,0.130405458,*,Diesel,van,Volkswagen,*,*,Mileage
+no,*,*,*,*,*,Year,-1,0.967612299,0.092173913,correlation,compound shape,0.089188612,no,*,sedan,*,*,*,Mileage
+yes,Diesel,van,*,*,*,Year,-1,0.921686798,0.135900621,correlation,compound shape,0.125257808,yes,*,van,Volkswagen,*,*,Mileage
+*,*,sedan,*,*,*,Year,-1,0.961873237,0.381118012,correlation,compound shape,0.366587216,yes,*,sedan,*,*,*,Mileage
+*,*,*,BMW,*,*,Year,-1,0.938668561,0.159006211,correlation,compound shape,0.149254131,yes,*,*,BMW,*,*,Mileage
+*,*,van,*,*,*,Year,-1,0.996772384,0.15552795,correlation,compound shape,0.155025966,yes,*,van,*,*,*,Mileage
