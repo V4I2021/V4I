@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+</style>
+<body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+
+    let width = 800,
+        height = 800,
+        r = 8;
+
+    // insight_graph_carSales1
+    // insight_graph_carSales2.json
+    // insight_graph_Census.json
+    // insight_graph_Emission.json
+    d3.json("insight_graph_carSales2.json").then(graph => {
+        console.log('graph', graph);
+        let nodes = graph.nodes;
+        let edges = [];
+        graph.edges.forEach(edge => {
+            if (edge.jaccard_index > 0.15) {
+                edges.push(edge);
+            }
+        });
+        let feature_colours = d3.scaleOrdinal(d3.schemeCategory10)
+            .domain(graph.featrues);
+        let insight_colours = d3.scaleOrdinal(d3.schemeCategory10)
+            .domain(graph.insights);
+
+        console.log('feature', graph.featrues, feature_colours('Sex'))
+
+        // Init
+        let svg = d3.select('body').append('svg').attr('width', width).attr('height', height);
+
+        let controls = svg.append('g').attr('class', 'control');
+        let methods = [{'method': 'tsne'}, {'method': 'mds'}, {'method': 'se'}, {'method': 'iso'}, {'method': 'force'}];
+
+        let embeddings = [{'embedding': 'fcpE'}, {'embedding': 'rdcE'}];
+        let embedding = embeddings[0];
+
+        let currentMethod = 'tsne';
+        let currentEmbedding = 'fcpE';
+
+        // Initialize the location by tsne
+        let xScale = d3.scaleLinear().domain(d3.extent(nodes, node => node.x)).range([200, width - 200]);
+        let yScale = d3.scaleLinear().domain(d3.extent(nodes, node => node.y)).range([80, height - 120]);
+        let sizeScale = d3.scaleLinear().domain([0, 1]).range([2, 5]);
+        nodes.forEach(node => {
+            node.x = xScale(node.x);
+            node.y = yScale(node.y);
+        });
+
+        let methodButtonContainers = svg.append('g').attr('transform', 'translate(' + [20, 40] + ')')
+            .selectAll('.methodButtonContainer').data(methods).enter()
+            .append('g').attr('class', 'methodButtonContainer').attr('transform', (d, i) => 'translate(' + [0, i * 30] + ')');
+
+        let embeddingButtonContainers = svg.append('g').attr('transform', 'translate(' + [40 + 120, 40] + ')')
+            .selectAll('.embeddingButtonContainer').data(embeddings).enter()
+            .append('g').attr('class', 'embeddingButtonContainer').attr('transform', (d, i) => 'translate(' + [0, i * 30] + ')');
+
+        let contourContainer = svg.append('g').attr('class', 'contourContainer');
+        let renderContour = function () {
+            let contourGenerator = d3.contourDensity()
+                .x(d => d.x)
+                .y(d => d.y)
+                .size([width, height])
+                .bandwidth(20)
+                .cellSize(3)
+                .weight(d => {
+                    return d.impact
+                });
+            contourGenerator.thresholds(12)
+            let contourData = contourGenerator(nodes);
+
+            var contourFillColor = d3.scaleSequential(d3.interpolateYlGnBu)
+                .domain([0, d3.max(contourData, d=>d.value)]); // Points per square pixel.
+
+            contourContainer.selectAll('*').remove();
+            contourContainer.insert("g", "g")
+                .attr("fill", "none")
+                .attr("stroke", "#000")
+                .attr("stroke-width", 0.5)
+                // .attr("stroke-linejoin", "round")
+                .selectAll("path")
+                .data(contourData)
+                .enter().append("path")
+                .attr("fill", function (d) {
+                    return contourFillColor(d.value)
+                })
+                .attr("d", d3.geoPath());
+        };
+        let methodButtons = methodButtonContainers.append('rect').attr('class', 'methodButton').attr('width', 100).attr('height', 25)
+            .attr('fill', '#b8c9e3').attr('stroke-width', 2).attr('stroke', 'black');
+        methodButtonContainers.append('text').text(d => d.method).attr('dy', 15).attr('dx', 5);
+
+        let embeddingButtons = embeddingButtonContainers.append('rect').attr('class', 'embeddingButton').attr('width', 100).attr('height', 25)
+            .attr('fill', '#b8c9e3').attr('stroke-width', 2).attr('stroke', 'black');
+        embeddingButtonContainers.append('text').text(d => d.embedding).attr('dy', 15).attr('dx', 5);
+
+        methodButtons.on('click', function (d) {
+            d3.selectAll('.methodButton').attr('stroke', 'black')
+            d3.select(this).attr('stroke', 'red');
+            if (d.method == 'force') runForce();
+            else {
+                currentMethod = d['method'];
+                runLayout(currentEmbedding, currentMethod);
+            }
+        });
+        embeddingButtons.on('click', function (d) {
+            d3.selectAll('.embeddingButton').attr('stroke', 'black')
+            d3.select(this).attr('stroke', 'red');
+            currentEmbedding = d['embedding'];
+            runLayout(currentEmbedding, currentMethod);
+        });
+
+
+        const simulation = d3.forceSimulation(nodes);
+        let runForce = function () {
+            function ticked() {
+                allCircleContainers.attr('transform', d => {
+                    d.x = Math.max(r, Math.min(width - r, d.x));
+                    d.y = Math.max(r, Math.min(height - r, d.y));
+                    return 'translate(' + [d.x, d.y] + ')'
+                });
+                allCircleContainers.attr('transform', d => 'translate(' + [d.x, d.y] + ')');
+                allLinkContainer
+                    .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x).attr("y2", d => d.target.y)
+                    .attr('stroke-width', 0);
+
+                renderContour()
+            }
+
+            simulation.force("link", d3.forceLink(edges).id(d => d.id))
+                .force("charge", d3.forceManyBody()
+                    .strength(-80)
+                    .distanceMin(50)
+                    // .distanceMax(500)
+                    .theta(0.9)
+                )
+                .force('collision', d3.forceCollide().radius(d => r * 1.5))
+                .force('x', d3.forceX().x(d => width / 2).strength(0.1))
+                .force('y', d3.forceY().y(d => height / 2).strength(0.1))
+
+            simulation.on("tick", ticked);
+            simulation.restart();
+            simulation.alpha(0.8);
+        };
+        let runLayout = function (projection, method) {
+            if (simulation) simulation.stop();
+            let layoutKey = projection + '_' + method;
+            xScale.domain(d3.extent(nodes, node => node[layoutKey][0]));
+            yScale.domain(d3.extent(nodes, node => node[layoutKey][1]));
+            nodes.forEach(node => {
+                node.x = xScale(node[layoutKey][0]);
+                node.y = yScale(node[layoutKey][1]);
+            });
+
+
+            var simulation2 = d3.forceSimulation(nodes)
+                .force("collide", d3.forceCollide().radius(function (d) {
+                    return sizeScale(d.impact)
+                }))
+                .force("manyBody", d3.forceManyBody().strength(-5))
+                .stop();
+            for (var i = 0; i < 5; ++i) simulation2.tick();
+
+            allLinkContainer.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x).attr("y2", d => d.target.y)
+                .attr('stroke', 'black').attr('stroke-width', 0);
+
+            allCircleContainers.attr('transform', d => 'translate(' + [d.x, d.y] + ')');
+
+
+            renderContour()
+
+        };
+        // Start Rendering
+
+        let linkContainer = svg.append('g');
+        let circleContainer = svg.append('g');
+        let allLinkContainer = linkContainer.selectAll('.links').data(edges).enter().append('line')
+            .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x).attr("y2", d => d.target.y)
+            .attr('stroke', 'black').attr('stroke-width', 0);
+
+        let allCircleContainers = circleContainer.selectAll('.circleContainer').data(nodes).enter().append('g')
+            .attr('transform', d => 'translate(' + [d.x, d.y] + ')');
+
+        allCircleContainers.each(function (d) {
+            let _container = d3.select(this);
+            if (d.insight_type == 'shape') {
+                // if (true) {
+                _container.append('circle').attr('class', 'glyph')
+                    .attr('r', d => sizeScale(d.impact))
+            } else {
+                _container.append('rect').attr('class', 'glyph')
+                    .attr('width', sizeScale(d.impact) * 2).attr('height', sizeScale(d.impact) * 2)
+            }
+
+            _container.selectAll('.glyph')
+                .attr('fill', d => {
+                    return feature_colours(d.breakdown)
+                })
+                .attr('opacity', d => {
+                    if (d.score > 0.1) {
+                        return 1
+                    } else {
+                        return 0.0
+                    }
+                }).attr('stroke', insight_colours(d.insight)).attr('stroke-width', 2)
+                .append('title').text(d => {
+                return '[' + d.Year + ';' + d.Brand + ';' + d.Category + '] -' +
+                    ' [' + 'Breakdown: ' + d['Breakdown'] + '; Breakdown Value: ' + d['Breakdown_value'] + ']' +
+                    'Impact:' + parseInt(d.impact * 1000) / 1000 + ' Sig:' + parseInt(d.Sig * 1000) / 1000
+            });
+        });
+        renderContour()
+
+
+    })
+</script>
+</body>
